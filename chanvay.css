@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    
+}
+.container {
+    background-image: linear-gradient(0, #dcd9d9, #fff); /* đặt màu nền cho background */
+    width: 100%;
+    height: 280px;
+    background-image:  url(thoitrang/z2335457253927_5dafe4040d894552031cdac9607cdb0e_5.jpg);
+    background-size: cover ; /* thay đổi kích thước hình nền để che vừa toàn bộ background */
+
+} 
+.container .logo {
+    
+    width: 260px;
+    height: 200px;
+} 
+.container .logo img {
+    width: 280px;
+    margin-top: -8px;
+}
+.container .dangky-dangnhap {
+    /*background-color: aqua; */
+   width: 400px;
+   height: 40px;
+   margin-left: 850px;
+   margin-top: -200px;
+
+}
+.container .dangky-dangnhap ul li {
+    float: left;
+    list-style: none; /* để xóa dấu chấm của thẻ li */
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.container .dangky-dangnhap ul li a {
+    text-decoration:none ; /* để xóa dấu gạch chân */
+    color: #fff;
+}
+.container .dangky-dangnhap ul li a:hover {
+color: #7eff00;
+}
+.container .menu {
+
+width: 800px;
+height: 70px;
+margin-left: 300px;
+margin-top:-60px ;
+}
+.container .menu ul li {
+    float: left; /* dùng để căn thẻ li nằm ngang */
+    list-style-type: none; /* xóa dấu chấm thẻ li */
+    margin-top: 80px;
+}
+.container .menu ul li a  {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px; /* kích thước chữ */
+    color: #fff;
+    
+}
+
+ .search {
+    
+    width: 750px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 280px;
+    
+}
+.search input {
+    width: 700px;
+    height: 40px;
+    border-radius: 10px; /* đường viền tròn */
+    
+}
+ .search form input {
+   
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    
+   
+   
+    
+   
+ }
+ .search form {
+  margin-top: -44px;
+  margin-left: 624px;
+ 
+ }
+ .container .menu ul li a:hover {
+    color: #878787;
+ }
+ .container .search input:hover {
+    color: #31b5d1;
+ }
+ /*=========================================================================*/
+.menuduoi {
+    background-color: #bbbbbb;
+    height: 70px;
+    width: 100%;
+    position: sticky; 
+}
+.menuduoi ul li {
+   float: left;
+   list-style: none;
+margin-left: 150px;
+ margin-top: 25px;
+   
+}
+.menuduoi ul li a {
+ color: #ffffff;
+ text-decoration: none;
+ 
+ 
+}
+.menuduoi ul li a:hover {
+    color: rgb(66, 63, 63);
+}
+/*------------------------------------------------------------------------*/
+.table {
+     
+    width: 100%;
+    height: 4500px;
+}
+.table .anh1 {
+    background-color: #878787;
+    width: 400px;
+    height: 590px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.table .anh1 img {
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.table .anh1  p b {
+    font-size: 20px;
+    
+    
+}
+.table .anh1 p {
+    padding-top: 20px;
+}
+.table .anh1 button {
+    background-color: rgb(154, 240, 240);
+    width:140px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.table .anh1 button:hover {
+    background-color: aqua;
+}
+
+ .table .anh2 {
+    background-color: pink;
+    width: 650px;
+    height: 590px;
+    margin-left: 600px;
+    margin-top: -590px;
+    border-radius: 10px;
+}
+.table .anh2 .anh21 {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.table .anh2 .anh22 {
+  margin-left:40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.table .anh2  p b {
+    font-size: 20px;
+    
+    
+}
+.table .anh2 p {
+    padding-top: 20px;
+}
+.table .anh2 button {
+    background-color: rgb(154, 240, 240);
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.table .anh2 button:hover {
+    background-color: aqua;
+}

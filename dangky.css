@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    background-image: linear-gradient(0, #dcd9d9, #fff);
+    width: 100%;
+    height: 300px;
+    background-image:  url(thoitrang/22-min.png);
+    background-size: cover ;
+
+} 
+
+
+.duoi {
+    background-color: rgb(252, 203, 241);
+    width: 100%;
+    height: 600px;
+}
+.duoi .bieutuong {
+    width: 500px;
+    height: 500px;
+  /*  background-color: aquamarine; */
+    margin-left: 50px;
+}
+
+
+.duoi .form {
+    background-color: rgb(255, 255, 255); 
+    height: 450px;
+    width: 400px;
+    margin-left: 850px;
+    border-radius: 15px  ;
+    margin-top: -480px;
+    
+ }  
+
+.duoi .form .chu  {
+   
+   width: 100%;
+   height: 50px;
+    
+    
+}
+ .chu p b {
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.chu input {
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ghinhomatkhau {
+    margin-top: 200px;
+    margin-left: 20px;
+    
+}
+.nutdangky input {
+    width: 350px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+.nutdangky input:hover {
+    background-color: rgb(57, 192, 192);
+}
+.nutdangky p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
