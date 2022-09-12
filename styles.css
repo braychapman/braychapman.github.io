@@ -1,0 +1,129 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .background {
+   background-image: linear-gradient(pink, white) ;
+ width: 100%;
+ height: 500px;
+
+}
+
+.main {
+   background-image: linear-gradient(white, pink) ;
+   height: 600px;
+   width: 500px;
+   position: relative;
+   top: 8%;
+   left: 30%;
+   border-radius: 20px ;
+   
+}
+.main .main-title .main-img img {
+   width: 30%;
+   position: relative;
+   top:20px ;
+   left: 35%;
+   border-radius: 20px ;
+  
+}
+.main .main-title .main-img p {
+   font-size: 25px;
+   font-family: Cursive;
+   font-weight: bold;
+   letter-spacing: 4px;
+   position: relative;
+   top: 25px;
+   left: 23%;
+}
+.main .main-title .main-img i {
+   font-size: 20px;
+   position: relative;
+   top: 10px;
+   left: 39%;
+   font-weight: bold;
+   letter-spacing: 3px;
+}
+.main-content  .icon {
+   font-size: 45px;
+   position: relative;
+   left: 20px;
+   top: 15px;
+   margin: 4px 0px;
+}
+.main-content .content-1-of-4-fb {
+   color: blue;
+}
+.main-content .content-1-of-4-fb .information {
+position: relative;
+left: 200px;
+top: -40px;
+font-size: 25px;
+
+
+}
+.main-content .content-1-of-4-fb .information a {
+   text-decoration: none; 
+   color: black;
+   font-family: cursive;
+}
+
+.main-content .content-1-of-4-ins {
+   color: rgb(218, 30, 86);
+}
+.main-content .content-1-of-4-ins .information {
+   position: relative;
+   left: 200px;
+   top: -40px;
+   font-size: 25px;
+   
+   
+   }
+   .main-content .content-1-of-4-ins .information a {
+      text-decoration: none; 
+      color: black;
+      font-family: cursive;
+   }
+.main-content .content-1-of-4-phone {
+   color: rgb(0, 255, 55);
+}
+.main-content .content-1-of-4-phone .information {
+   position: relative;
+   left: 200px;
+   top: -40px;
+   font-size: 25px;
+   
+   
+   }
+   .main-content .content-1-of-4-phone .information a {
+      text-decoration: none; 
+      color: black;
+      font-family: cursive;
+   }
+.main-content .content-1-of-4-gmail {
+   color: rgb(255, 0, 13);
+}
+.main-content .content-1-of-4-gmail .information {
+   position: relative;
+   left: 200px;
+   top: -40px;
+   font-size: 25px;
+   
+   
+   }
+   .main-content .content-1-of-4-gmail .information a {
+      text-decoration: none; 
+      color: black;
+      font-family: cursive;
+   }
+.main-content .content-1-of-4-fb .information:active a,
+.main-content .content-1-of-4-ins .information:active a,
+.main-content .content-1-of-4-phone .information:active a,
+.main-content .content-1-of-4-gmail .information:active a
+
+{
+  color: rgb(243, 140, 157);
+}
+
+
